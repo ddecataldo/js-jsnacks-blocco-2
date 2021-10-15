@@ -6,13 +6,13 @@
 
 ***/
 
-let numero;
+let numero = false;
 
 while (!numero) {
 
     numeroUtente = prompt("Inserisci un numero");
     
-    if(numero % 2 === 0){
+    if(numeroUtente % 2 === 0){
         numero= "true";
         console.log("Il numero è pari");
     } else {
