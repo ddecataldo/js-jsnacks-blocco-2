@@ -10,14 +10,14 @@ let numero = false;
 
 while (!numero) {
 
-    numeroUtente = prompt("Inserisci un numero");
+    numeroUtente = parseInt(prompt("Inserisci un numero"));
     
     if(numeroUtente % 2 === 0){
         numero= "true";
-        console.log("Il numero è pari");
+        console.log("Il numero " + numeroUtente + " è pari");
     } else {
         numero= "false";
-        console.log("Il numero è dispari");
+        console.log("Il numero " + numeroUtente + " è dispari");
     }
 
 }
